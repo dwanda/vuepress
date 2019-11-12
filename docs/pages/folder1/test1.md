@@ -14,7 +14,7 @@ https://www.jianshu.com/p/f03ff4f3a8b3
 This is a warning
 :::
 
-``` js{4}
+``` js
 
 /**
  * Promise 实现 遵循promise/A+规范

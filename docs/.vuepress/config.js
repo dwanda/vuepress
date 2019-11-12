@@ -11,7 +11,7 @@ module.exports = {
     serviceWorker: true,
     themeConfig: {
         logo: '/egg.png',
-        lastUpdated: '上次更新', // string | boolean
+        lastUpdated: 'lastUpdate', // string | boolean
         nav: [
             { text: '首页', link: '/' },
             {
@@ -43,7 +43,6 @@ module.exports = {
                     ]
                 }
             ],
-
         }
     }
 }
