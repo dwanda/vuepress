@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style="width:100%;backgroundColor:#ebebeb;padding:30px;">
+        <div style="width:100%;backgroundColor:#ebebeb;padding:30px;height:100vh;">
             <div style="minWidth:350px;width:40%;margin:auto;">
                 <div style="marginBottom:15px;fontSize:18px;fontWeight:bold;color:#293f5f;">
                     hahah
