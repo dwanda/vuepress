@@ -5,12 +5,15 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/egg.png' }], 
     ],
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         logo: '/egg.png',
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/pages/test1.md' },
-            { text: 'External', link: 'https://google.com' },
+            { text: '首页', link: '/' },
+            { text: '文档', link: '/pages/test1.md' },
+            { text: '扩展', link: 'https://google.com' },
         ],
         sidebar: [
             {
@@ -23,7 +26,10 @@ module.exports = {
             },
             {
                 title: 'Group 2',
-                children: [ /* ... */ ]
+                collapsable: false, // 可选的, 默认值是 true,
+                children: [
+                    ['/pages/test2.md', 'Explicit link text']
+                ]
             }
         ]
     }
