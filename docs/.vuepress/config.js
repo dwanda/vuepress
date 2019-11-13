@@ -23,7 +23,7 @@ module.exports = {
                 ]
             },
             { text: '其他页面', link: '/pages/folder1/test3.md' },
-            { text: 'Github', link: 'https://www.baidu.com' },
+            { text: 'Github', link: 'https://github.com/dwanda/vuepress' },
         ],
         sidebar: {
             '/pages/folder1/':[
