@@ -9,7 +9,7 @@ module.exports = {
         lineNumbers: true
     },
     serviceWorker: true,
-    themeConfig: {
+    themeConfig: {    
         logo: '/egg.png',
         lastUpdated: 'lastUpdate', // string | boolean
         nav: [
